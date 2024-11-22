@@ -13,6 +13,7 @@ public class Persona {
     int edad;
 
 
+    //Definimos sus metodos
     public void Saludar(){
         System.out.println("Buenas a todos");
     }
