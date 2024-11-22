@@ -1,6 +1,5 @@
 package poo.persona;
 
-
 //Se ha creado una clase que se llama Persona
 public class Persona {
 
@@ -38,18 +37,4 @@ public class Persona {
     }
 
 
-
-    //Para poder compararlos con equals mirando el contenido
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Persona persona = (Persona) o;
-//        return edad == persona.edad && Objects.equals(nombre, persona.nombre);
-//    }
-//
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(nombre, edad);
-//    }
 }

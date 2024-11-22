@@ -13,12 +13,6 @@ public class Pruebas {
         prueba.edad=10;
         prueba.nombre="juan";
 
-        //Porque no se pueden comparar
-        if(prueba.equals(juan)){
-            System.out.println("Son iguales");
-        }
-        System.out.println(juan);
-        System.out.println(prueba);
 
         //Usamos el método para saludar
         juan.Saludar();
@@ -33,6 +27,16 @@ public class Pruebas {
         juan.DecirEdad(juan.edad);
 
 
+    }
+
+
+    //Un método static (no asociado a una clase) con return int
+    public static int suma(){
+        return 2+2;
+    }
+    //Un método static (no asociado a una clase) sin return
+    public static void metodoStatic(){
+        System.out.println("soy un método static");
     }
 
 }
