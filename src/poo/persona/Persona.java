@@ -13,16 +13,16 @@ public class Persona {
 
 
     //Definimos sus metodos
-    public void Saludar(){
+    public void saludar(){
         System.out.println("Buenas a todos");
     }
 
-    public void CumplirAnyos(){
+    public void cumplirAnyos(){
         System.out.println("Hoy es mi cumpleaños");
         this.edad++;
     }
 
-    public void DecirEdad(int edad){
+    public void decirEdad(int edad){
         System.out.println(edad);
     }
 

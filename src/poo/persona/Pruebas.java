@@ -15,16 +15,16 @@ public class Pruebas {
 
 
         //Usamos el método para saludar
-        juan.Saludar();
+        juan.saludar();
 
         //Usamos el método definido para decir la edad, proporcionandole nuestra edad
-        juan.DecirEdad(juan.edad);
+        juan.decirEdad(juan.edad);
 
         //Con el objeto persona de juan podemos aumentar su edad con este método
-        juan.CumplirAnyos();
+        juan.cumplirAnyos();
 
         //Volvemos a pedirle la edad
-        juan.DecirEdad(juan.edad);
+        juan.decirEdad(juan.edad);
 
 
     }
