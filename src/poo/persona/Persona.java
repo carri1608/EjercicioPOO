@@ -17,9 +17,9 @@ public class Persona {
         System.out.println("Buenas a todos");
     }
 
-    public void CumplirAnyos(Persona nombre){
+    public void CumplirAnyos(){
         System.out.println("Hoy es mi cumpleaños");
-        nombre.edad++;
+        this.edad++;
     }
 
     public void DecirEdad(int edad){

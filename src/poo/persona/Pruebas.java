@@ -21,7 +21,7 @@ public class Pruebas {
         juan.DecirEdad(juan.edad);
 
         //Con el objeto persona de juan podemos aumentar su edad con este método
-        juan.CumplirAnyos(juan);
+        juan.CumplirAnyos();
 
         //Volvemos a pedirle la edad
         juan.DecirEdad(juan.edad);
