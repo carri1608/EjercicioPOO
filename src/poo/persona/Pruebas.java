@@ -14,6 +14,7 @@ public class Pruebas {
         prueba.nombre="juan";
 
 
+
         //Usamos el método para saludar
         juan.saludar();
 
@@ -31,8 +32,8 @@ public class Pruebas {
 
 
     //Un método static (no asociado a una clase) con return int
-    public static int suma(){
-        return 2+2;
+    public static int suma(int numero1, int numero2){
+        return numero1+numero2;
     }
     //Un método static (no asociado a una clase) sin return
     public static void metodoStatic(){
